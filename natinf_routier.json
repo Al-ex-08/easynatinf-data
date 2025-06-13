@@ -1,0 +1,62 @@
+[
+  {
+    "code": "23401",
+    "libelle": "Conduite sous l'emprise de l'alcool avec un taux supérieur à 0,8g/l",
+    "article": "L.234-1",
+    "categorie": "Infractions routières",
+    "conduite": "Réaliser un dépistage. Si positif, procéder à une vérification par éthylomètre ou prise de sang. Rédaction de PV. Rétention immédiate du permis.",
+    "repression": {
+      "qualification": "Délit",
+      "points": 6,
+      "permis": "Rétention immédiate, suspension possible",
+      "gav": true,
+      "fourriere": "Classique",
+      "depistage": {
+        "alcool": true,
+        "stups": false
+      },
+      "afd": false,
+      "montant_max": null
+    }
+  },
+  {
+    "code": "22101",
+    "libelle": "Conduite d’un véhicule sans permis de conduire",
+    "article": "L.221-2",
+    "categorie": "Infractions routières",
+    "conduite": "Contrôle de l'identité, vérification de l'absence de permis, rédaction du PV. Immobilisation du véhicule. Saisie du parquet.",
+    "repression": {
+      "qualification": "Délit",
+      "points": 0,
+      "permis": "Aucun",
+      "gav": true,
+      "fourriere": "Classique",
+      "depistage": {
+        "alcool": false,
+        "stups": false
+      },
+      "afd": true,
+      "montant_max": 800
+    }
+  },
+  {
+    "code": "32401",
+    "libelle": "Conduite d’un véhicule sans assurance",
+    "article": "L.324-2",
+    "categorie": "Infractions routières",
+    "conduite": "Vérification de la situation d’assurance, rédaction du PV, rétention ou immobilisation du véhicule si nécessaire.",
+    "repression": {
+      "qualification": "Délit",
+      "points": 6,
+      "permis": "Pas de retrait, mais véhicule interdit à la circulation",
+      "gav": false,
+      "fourriere": "Classique",
+      "depistage": {
+        "alcool": false,
+        "stups": false
+      },
+      "afd": true,
+      "montant_max": 750
+    }
+  }
+]
